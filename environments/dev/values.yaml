@@ -14,7 +14,7 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
-  tls: []
+  tls: 
     - secretName: artemis-dev-tls
       hosts:
         - dev.overevkina.com
